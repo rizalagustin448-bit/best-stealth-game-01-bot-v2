@@ -1,0 +1,22 @@
+/* Beaconkeeper: The Midnight Light — page chrome around the game canvas. */
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: #07090f; }
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: #dfe8f2;
+}
+main { text-align: center; padding: 12px; }
+canvas {
+  display: block;
+  width: min(960px, 96vw);
+  height: auto;
+  border: 2px solid #2c313d;
+  border-radius: 6px;
+  background: #0b0e14;
+  box-shadow: 0 0 60px rgba(255, 200, 90, 0.08);
+}
+.help { margin: 8px 0 0; font-size: 13px; color: #9fb0c0; }
